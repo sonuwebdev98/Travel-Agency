@@ -1,0 +1,80 @@
+.testimonial-section{
+    @include f-100();
+    padding: 50px 0;
+
+    .testimonial{
+        @include inner();
+        padding: 50px 0;
+
+      .custom-carousel-change{
+
+         .item{
+             text-align: center;
+             border: 1px solid var(--bold-grey);
+             padding: 25px;
+             transition: 1s;
+
+
+
+             &:hover{
+                 background-color: var(--light-green);
+                 border: 1px solid var(--light-green);
+              
+             }
+
+             &:hover h1{
+                 color: var(--white);
+             }
+
+             &:hover h4 {
+                color: var(--white);
+            }
+
+            &:hover p{
+                color: var(--white);
+            }
+
+            figure{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                img{
+                    width: 80px;
+                    border-radius: 50%;
+                    border: 4px solid var(--white);
+                    box-shadow: 0 0 45px rgb(0 0 0 / 15%);
+                     
+                }
+            }
+
+            h1{
+                font-size: 1.2rem;
+                color: var(--dark-grey);
+                font-family: "Heebo", sans-serif;
+                font-weight: 600;
+                margin-top: 12px;
+            }
+
+            h4{
+                font-size: 0.8rem;
+                font-family: "Heebo", sans-serif;
+                font-weight: 400;
+                color: var(--grey);    
+
+            }
+
+            p{
+                color: var(--grey);
+                font-size: 0.9rem;
+                font-weight: 400;
+                font-family: "Heebo", sans-serif;
+                padding: 10px 0;
+
+            }
+
+
+         }
+      }  
+    }
+}

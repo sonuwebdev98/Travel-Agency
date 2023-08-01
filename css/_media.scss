@@ -1,0 +1,720 @@
+@media only screen and (max-width: 1199px) {
+  .about-section {
+    .about-us {
+      width: 90%;
+
+      .articals {
+        .headings {
+          h2 {
+            padding: 10px 0;
+          }
+        }
+
+        .para {
+          margin-top: -40px;
+        }
+      }
+    }
+  }
+
+  .service-section {
+    .gallary {
+      width: 90%;
+    }
+  }
+
+  .destination-section {
+    .p-destination {
+      width: 90%;
+    }
+  }
+
+  .packages-section {
+    .a-packages {
+      width: 90%;
+    }
+  }
+
+  .booktour-section {
+    .book-tour {
+      width: 90%;
+    }
+  }
+
+  .process-section {
+    .pro-section {
+      width: 90%;
+    }
+  }
+
+  .travel-section {
+    .tra-section {
+      width: 90%;
+    }
+  }
+
+  .testimonial-section {
+    .testimonial {
+      width: 90%;
+    }
+  }
+
+  .contact-section{
+
+    .contact-form{
+      width: 90%;
+
+    }
+  }
+
+  footer {
+    .footer-center {
+      width: 90%;
+      margin: 0 auto;
+
+      .btm-headings {
+        .footer-1 {
+          .add {
+            p {
+              margin: 12px 0;
+              font-size: 0.8rem;
+            }
+          }
+          .submit {
+            .search-btn {
+              .btn-style {
+                padding: 8px 8%;
+                position: relative;
+                top: -48px;
+                left: 55%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .top-nav {
+    display: none;
+  }
+
+  .banners {
+    .navigation {
+      position: relative;
+      z-index: 1000;
+      background-color: var(--white);
+      nav {
+        padding: 15px 20px;
+
+        .logo{
+          width: 50%;
+        }
+      
+
+        ul {
+          display: none;
+          width: 100%;
+          background-color: var(--white);
+          color: #0000;
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: -400px;
+          left: 0;
+          padding-left: 50px;
+          padding: 40px 50px;
+          z-index: -100;
+          transition: 1s;
+        
+
+          li {
+            a {
+              color: var(--dark-grey);
+              border-bottom: none;
+              position: static;
+
+              &:hover {
+                border-bottom: none;
+                color: var(--light-green);
+              }
+
+              &::after {
+                display: none;
+              }
+
+              &:hover {
+                color: var(--light-green);
+
+                &::after {
+                  display: none;
+                }
+              }
+            }
+
+            .active {
+              color: var(--light-green);
+              border-bottom: none;
+            }
+          }
+
+          .dropdown {
+            ul {
+              border: 1px solid #e9ecef;
+              position: absolute;
+              top: 200px;
+              left: 50px;
+              width: 250px;
+
+              li {
+                a {
+                  &:hover {
+                    background-color: #e9ecef;
+                    color: var(--dark-grey);
+                  }
+
+                  .active{
+                    color: var(--white);  
+                  }
+                }
+
+               
+              }
+            }
+          }
+
+          .r-btn {
+            width: 120px;
+            a {
+              color: var(--white);
+              &:hover {
+                border: none;
+              }
+            }
+          }
+        }
+
+        .humburger {
+          display: block;
+          width: 50%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+
+          .bars {
+            font-size: 1.3rem;
+            border: 1px solid #e5e5e5;
+            color: #777777;
+            padding: 5px 10px;
+            cursor: pointer;
+
+            &:hover {
+              border: 2px solid #777777;
+            }
+          }
+        }
+
+        .active {
+          top: 70px;
+        
+        }
+      }
+    }
+  }
+
+
+  .about-section {
+    .about-us {  
+      width: 80%;
+   
+   
+
+      .img-areas{
+        width: 100%;
+        margin: 0 auto; 
+      
+      }
+     
+
+      .articals {
+        width: 100%;
+        margin: 25px auto;
+        .headings {
+     
+
+          h2 {
+            padding: 10px 0;
+          }
+        }
+
+        .para {
+          margin-top: 0px;
+
+          p{
+            margin: 12px 0;
+          }
+
+          aside{
+            margin-top: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .service-section {
+    .gallary {
+      width: 80%;
+      display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    }
+  }
+
+  .destination-section {
+    .p-destination {
+      width: 80%;
+
+      .l-img{
+        width: 100%;
+       
+
+        .second-img{
+
+          .img2{
+            width: 100%;
+          }
+        }
+
+
+      }
+
+      .r-img{
+        width: 100%; 
+
+       
+      }
+    }
+  }
+
+  .packages-section{
+    .a-packages{
+       width: 80%;
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 20px;
+    }
+  }
+
+  .booktour-section{
+    .book-tour{
+      width: 80%;     
+
+          .booking{
+            width: 100%;
+          }
+
+
+          .form-section {
+            width: 100%;
+            padding: 30px 30px;
+        }
+       
+    }
+  }
+
+
+  .process-section{
+    .pro-section {
+      width: 80%;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap:60px;
+  }
+  }
+
+  .travel-section{
+    .tra-section {
+      width: 80%;
+      grid-template-columns: repeat(2,1fr);
+      grid-gap:20px;
+
+      .guider{
+
+        .social-icons{
+
+          .s-icon{
+            position: relative;
+            left: 37%;
+          }
+        }
+      }
+    }
+  }
+
+  .contact-section{
+    .contact-form{
+      width: 80%;
+      grid-template-columns: repeat(1,1fr);
+      grid-gap: 40px;
+    }
+  }
+
+  footer {
+    .footer-center {
+      width: 80%;
+    
+
+      .btm-headings {
+
+        .footer-1 {
+          width: 48.5%;
+          margin-bottom: 20px;
+    
+          .submit{
+
+          
+            .search-btn{
+
+              .btn-style{
+                top: -47px;
+                left: 65%;
+              }
+            }
+          }
+
+        }
+      }
+    
+    }
+
+  }
+  
+    
+      
+
+}
+
+@media only screen and(max-width:767px){
+  html{
+    font-size: 16px;
+  }
+
+.banners{
+ .banners-center{
+
+   h1{
+    font-size: 2.5rem;
+   
+   }
+
+   p{
+    font-size: 1.5;
+
+   }
+
+   .search-btn{
+     width: 100%;
+     margin-left: 15%;
+          
+   }
+ }
+}
+
+.about-section {
+  .about-us {
+    width: 70%;
+    
+  }
+}
+
+.service-section {
+  .gallary {
+    width: 70%;
+  }
+}
+
+.destination-section {
+  .p-destination {
+    width: 70%;
+  }
+}
+
+.packages-section {
+  .a-packages {
+    width: 70%;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+.booktour-section {
+  .book-tour {
+    width: 70%;
+  }
+}
+
+.process-section {
+  .pro-section {
+    width: 70%;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 80px;
+  }
+}
+
+.travel-section {
+  .tra-section {
+    width: 70%;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 30px;
+    
+  }
+}
+
+.testimonial-section {
+  .testimonial {
+    width: 70%;
+  }
+}
+
+footer {
+  .footer-center {
+    width: 70%;
+
+    .btm-headings{
+      .footer-1{
+        width: 100%;
+        margin-bottom: 50px;
+
+
+
+        h1{
+          font-size: 2rem;
+        }
+
+        .submit{
+
+          
+          .search-btn{
+
+            .btn-style{
+              top: -45px;
+              left: 70%;
+            }
+          }
+        }
+      }
+    }
+
+    .copyrights{
+      .copy{
+        width: 100%;
+        text-align: center;   
+        margin: 25px 0;
+   
+      }
+
+      .menus{
+        width: 100%;
+       
+
+        ul{
+          justify-content: center;
+
+        }
+      }
+    }
+   }
+
+  }
+  
+}
+
+@media only screen and(max-width:575px){
+
+
+  .about-section{
+    .about-us{
+      .articals{
+
+        .para {
+          aside{
+            width: 100%;
+            line-height: 36px;
+            margin-bottom: 0px;
+          }
+        }
+
+        .btns{
+          button{
+            margin-top: 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .service-section {
+    .gallary {
+      grid-template-columns: repeat(1,1fr);
+     
+    }
+  }
+
+  .booktour-section{
+    .book-tour{
+      .form-section{
+        form{
+          .w-50{
+            width: 100%;
+          }
+
+          .date-time{
+            width: 100%;
+          }
+
+          .destination{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+
+@media only screen and (max-width:467px){
+
+  .heading{   
+    h4{    
+      font-size: 2rem;       
+    }    
+  }
+
+ .banners{
+   .banners-center{
+     .search-btn{
+      
+       input{
+         width: 70%;
+         margin-left: 0%;
+         margin: 0 14%;
+       
+       }
+
+       .btn-style{
+         position: relative;
+         top: -48px;
+         left: 15%;
+       }
+     }
+   }
+ }
+
+
+.booktour-section{
+
+  .book-tour{
+    .booking{
+      h1{
+          font-size: 1.8rem;
+      }
+    }
+
+    .form-section{
+      h1{
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  
+}
+
+.contact-section{
+  .contact-form{
+
+    .form{
+
+      .form-section{
+        form{
+          .w-50{
+            width: 100%;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+ footer{
+   
+  .footer-center{
+
+    .btm-headings{
+      .footer-1{
+        .submit{
+
+          
+          .search-btn{
+  
+            .btn-style{
+          
+              left: 66%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+ }
+
+
+
+}
+
+
+@media only screen and (max-width:400px){
+
+
+  .travel-section{
+    .tra-section{
+      .guider{
+        .social-icons{
+
+          .s-icon{
+            position: relative;
+            left: 32%;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+@media only screen and (max-width:320px){
+
+  .banners {
+    .navigation {
+      nav {
+        .logo{
+          p {            
+            font-size: 2.2rem;
+          
+        }
+        }
+      }
+    }
+  
+  
+  }
+}
+
+

@@ -1,0 +1,234 @@
+footer{
+    width: 100%;
+    background-color: var(--black);
+
+    .footer-center{
+        @include inner();
+        @include flex();
+
+        .btm-headings{
+            width: 100%;
+            @include flex();
+
+            .footer-1{
+                width: 22%;
+                // background-color: red;
+
+                h1{
+                    font-size: 1.5rem;
+                    color: var(--white);
+                }
+        //   1st box starts 
+                .term{
+                  margin-top: 20px;
+
+                    .f-icon{
+                        width: 100%;
+                        @include flex();
+                        margin-bottom: 5px;
+                        color: var(--white);
+                      
+    
+                        .icons{
+                            width: 6%;
+                            
+    
+                            margin: -2px auto;
+                            span{
+                                font-size: 0.6rem;
+                               
+                            }
+                           
+                        }
+    
+                        .text{
+                            width: 94%;
+    
+                            p{
+                                font-size: 0.9rem;
+                                font-family: 'Heebo', sans-serif;
+                                font-weight: 400;
+                                color: var(--white);
+    
+                            }
+                          
+                        }
+                    }
+                }
+        //   2nd box starts 
+        
+             .add{
+               margin-top: 20px;
+
+                p{
+                    margin: 8px 0;
+                    font-size: 1rem;
+                    font-family: "Heebo", sans-serif;
+                    font-weight: 400;
+                    color: var(--white);
+                }
+             }
+
+             .right-social-icons{
+
+                .s-icon{
+                border: 1px solid var(--white);
+                font-size: 15px;
+                padding: 9px;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                transition: 1s;
+                color: var(--white);
+
+                &:hover{
+                    background-color: var(--white);
+                    color: var(--black);
+                    cursor: pointer;
+                }
+                }
+             }
+
+
+
+        // 3rd Box starts here 
+       
+                .gallary{
+                    width: 100%;
+                    @include flex();
+                  margin-top: 30px;
+
+                    .gallary-1{
+                        width: 32%;
+                      
+                  
+                        
+                        figure{
+                           img{
+                               width: 99%;
+                               border: 4px solid var(--white);
+                           }
+                        }
+                    }
+                }
+
+        // 4th Box starts here -----//
+        .submit{
+          margin-top: 20px;
+
+            p{
+                font-size: 0.9rem;
+                font-family: "Heebo", sans-serif;
+                font-weight: 400;
+                color: var(--white);
+              
+
+            }
+
+
+            .search-btn{
+                width: 100%;
+                position: relative;
+                top: 35px;
+             
+                
+
+                .email{
+                    width: 100%;
+                    padding: 15px 5px;
+                    outline: none;
+                    border: 0;
+                    font-size: 0.9rem;
+                    font-family: "Heebo", sans-serif;
+                    font-weight: 400;
+                    border: 1px solid var(--light-green);
+    
+
+                    &::placeholder{
+                        color: var(--black);
+                    }
+
+                    &:focus{
+                        outline: 4px solid var(--light-green);
+                        color: var(--black);
+                    }
+                  
+    
+                  
+                }
+
+                .btn-style{
+                    background-color: var(--light-green);
+                    padding: 10px 8%;
+                    font-size: 0.9rem;
+                    border: 0;
+                    font-family: "Heebo", sans-serif;
+                    font-weight: 400;
+                    position: relative;
+                    top: -50px;
+                    left: 61%;
+                    color: var(--white);
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+    
+                }
+
+
+
+            }
+        }
+            
+        
+
+            }
+        }
+
+    
+        .copyrights{
+            width: 100%;
+            margin-top: 50px;
+            padding: 25px 0;
+            @include flex();
+            border-top: 0.5px solid #736b77;
+
+            
+            .copy{
+                width: 50%;
+
+                p{
+                    color: var(--white);
+                }
+            }
+
+            .menus{
+                width: 50%;
+          
+
+                ul{
+                   display: flex;
+                   flex-direction: row;
+                   justify-content: flex-end;
+
+                   li{
+                       list-style: none;
+                       margin-right: 20px;
+
+                       a{
+                           text-decoration: none;
+                           border-right: 1px solid #736b77;
+                           padding: 8px;
+                           color: var(--white);
+                           
+                           
+
+                       }
+                   }
+                }
+            }
+        }
+    }
+    
+
+}

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  
+}
+
+// font-size
+body,html {
+  font-size: 18px;
+}
+
+
+// variables
+:root {
+  --light-green: #86b817;
+  --dark-grey: #2c3e50;
+  --light-grey: #808b8d;
+  --grey:#808B8D;
+  --grey-lighter:#333333;
+  --black: #14141f;
+  --white: #fff;
+  --light: #F5F5F5;
+  --red:#FF0000;
+  --bold-grey:#dee2e6;
+  
+}
+
+// Mixins
+@mixin flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@mixin inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+@mixin f-100 {
+  width: 100%;  
+  padding: 50px 0;
+
+}
+
+@mixin center-item {
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+header{ 
+
+  .banners-p{
+    
+    h2{
+      font-size: 3.5rem;
+      color: var(--white);
+  
+    }
+
+   ul{    
+     width: 100%;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     
+     
+     
+    
+
+
+     li{
+       list-style: none;
+       margin: 0 5px;
+
+       a{
+         color: var(--light-green);
+         text-decoration: none;
+         font-size: 1rem;
+
+         &:hover{
+         color: var(--light-green);
+         }
+
+         .breadcrumb{
+           color: var(--grey);
+         }
+
+       }
+
+       .active{
+         color: var(--white);
+        
+       }
+     }
+   
+   }
+
+  }
+
+}
+
+
+
+.heading{
+  width: 100%;
+  text-align: center;
+
+  h1{
+    color: var(--light-green);
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  h4{
+    color: var(--dark-grey);
+    font-size: 2.2rem;    
+    font-weight:700;
+    text-transform: capitalize;
+  }
+  
+}
+
+
+
+@import "header";
+
+@import "About";
+
+@import "services";
+
+@import "destination";
+
+@import "packages";
+
+@import "booktour";
+
+@import "process";
+
+@import "travel";
+
+@import "testimonial";
+
+@import "contact";
+
+@import "page-404";
+
+@import "footer";
+
+@import "media";

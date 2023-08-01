@@ -1,0 +1,242 @@
+.booktour-section{
+    @include f-100();
+    margin-top: -50px;
+   
+
+    .book-tour{
+        @include inner();
+        @include flex();
+        background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../img/booking.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;      
+        width: 100%;
+        padding: 50px 0;
+        
+
+
+
+        .booking{
+            width: 48.5%;
+            padding:0 0 0 30px;
+            // border: 1px solid red;s
+
+            h4{
+                color: var(--white);
+                text-transform: uppercase;
+                font-family: "Heebo", sans-serif;
+                margin-top: 20px;
+
+            }
+
+            h1{
+                color: var(--white);
+                font-size: 2.2rem;
+                margin-top: 12px;
+            }
+
+            p{
+                color: var(--white);
+               margin: 30px 0;
+               font-size: 0.9rem;
+               font-weight: 400;
+               font-family: "Heebo", sans-serif;
+
+            }
+
+            .btns{
+                font-family: "Nunito", sans-serif;
+                background: transparent;
+                color: var(--white);
+                border: 1px solid var(--bold-grey);
+                padding: 17px 9%;
+                text-transform: capitalize;
+                font-size: 1rem;
+                transition: 1s;
+                margin-top: 10px;
+
+
+                &:hover{
+                    color: var(--black);
+                    background-color: var(--white);
+                    cursor: pointer;
+                }
+                
+
+                
+            }
+
+        }
+
+        .form-section{
+            width: 48.5%;
+            padding: 0 30px;
+            // border: 1px solid red;   
+
+            h1{
+                color: var(--white);
+                font-size: 2.2rem
+            }
+
+            form{
+                @include flex();
+
+                .w-50{
+                    width: 48.5%;
+               
+
+                    .name_email{
+                        width: 100%;
+                        background: transparent;
+                        color: var(--grey);
+                        border: 1px solid var(--bold-grey);
+                        padding: 20px 10px;
+                        outline: none;
+                        margin-top: 15px;
+
+                        &::placeholder{
+                            color: var(--grey);
+                            font-size: 1rem;
+                            text-transform: capitalize;
+                            padding: 20px 10px;
+                            
+                        }
+
+                        &:focus{
+                            outline: 3px solid var(--light-green);
+                            opacity: 0.5;
+                        }
+                    }
+                }
+
+                .date-time{
+                    width: 48.5%;
+            
+
+                    .timedate{
+                        width: 100%;
+                        background: transparent;
+                        color: var(--grey);
+                        border: 1px solid var(--bold-grey);
+                        padding: 20px 10px;
+                        outline: none;
+                        margin: 15px 0;
+                        font-size: 1rem;
+
+                        &:focus{
+                            outline: 3px solid var(--light-green);
+                            opacity: 0.5;
+                        }
+
+                       
+
+                       
+                    }
+
+                }
+
+                .destination{
+                    width: 48.5%;
+                 
+
+                    .destinations{
+                        width: 100%;
+                        background: transparent;
+                        color: var(--white);
+                        border: 1px solid var(--bold-grey);
+                        padding: 20px 10px;
+                        outline: none;
+                        margin: 15px 0;
+                        color: var(--grey);
+                        font-size: 1rem;
+
+                        &:focus{
+                            outline: 3px solid var(--light-green);
+                            opacity: 0.5;
+                        }
+
+                    }
+                 
+
+
+                }
+
+                .text-areas{
+                    width: 100%;
+               
+
+                    textarea{
+                        width: 100%;
+                        background: transparent;
+                        color: var(--grey);
+                        border: 1px solid var(--bold-grey);
+                        outline: none;
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        padding: 20px 10px;
+                        margin-bottom: 12px;
+
+                        &::placeholder{
+                            color: var(--grey);
+                           
+                        }
+
+                        &:focus{
+                            outline: 3px solid var(--light-green);
+                            opacity: 0.5;
+                        }
+                    }
+                }
+
+                .w-100{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                   
+
+                    .btns{
+                        width: 100%;
+                        padding: 15px 0;
+                        font-size: 1rem;
+                        text-transform: capitalize;
+                        font-family: "Nunito", sans-serif;
+                        font-weight: 400;
+                        background: transparent;
+                        color: var(--white);
+                        border: 1px solid var(--bold-grey);
+                        transition: 1s;
+                     
+
+                        &:hover{
+                            background-color: var(--white);
+                            color: var(--black);
+                            cursor: pointer;
+                        }
+
+                        &:focus{
+                            outline: 3px solid var(--grey);
+                        
+                        }
+
+                      
+                    }
+
+                  
+                }
+
+
+            }
+
+        }
+
+
+    }
+
+
+}
+
+
+// .book-tour{
+//     padding: 50px 0;
+// }

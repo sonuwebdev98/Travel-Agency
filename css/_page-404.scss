@@ -1,0 +1,74 @@
+.page-found{
+   @include f-100();
+
+
+   .page-404{
+       
+       @include inner();
+       padding: 50px  0;
+       text-align: center   ;
+      
+       .font-awesome{
+
+         .danger{
+           
+             color: var(--light-green);     
+             font-size: 4rem;
+             margin-bottom: 18px;
+          
+         }
+
+       }
+
+
+       .details{
+           
+        
+          color: var(--dark-grey);
+          
+           h1{
+               font-size: 4.5rem;
+
+           }
+
+           h2{
+               font-size: 2.5rem;
+               font-size: 800;
+
+           }
+
+           p{
+            font-size: 1rem;
+            color: var(--light-grey);
+             font-family: "Heebo", sans-serif;
+             font-weight: 100;
+             padding: 25px 22%;
+             line-height: 30px;
+
+           }
+
+          
+       }
+
+       .btns-style{
+        background-color: var(--light-green);
+        color: var(--white);
+        border: none;
+        font-size: 0.9rem;
+        padding: 17px 50px;
+        font-weight: 600;
+        text-transform: capitalize;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: 1s;
+
+        &:hover{
+            opacity: 0.9;
+        }
+
+        &:focus{
+            outline: 5px solid var(--light-green);
+        }
+    }
+   }
+}

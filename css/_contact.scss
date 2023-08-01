@@ -1,0 +1,230 @@
+.contact-section{
+    @include f-100();
+
+    .contact-form{
+        @include inner();
+        padding: 35px 0;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 20px;
+
+        .box{
+
+            box-shadow: 0 0 45px rgb(0 0 0 / 5%);
+
+
+        }
+
+        .location{
+
+            h1{
+                color: var(--dark-grey);
+                font-size: 1.2rem;
+                 font-weight: 700;
+                 color: var(--grey-lighter);
+            }
+
+            p{
+                color: var(--light-grey);
+                font-size: 0.9rem;
+                font-size: 100;
+                font-family: "Heebo", sans-serif;
+                text-align: justify;
+                padding: 15px 0;
+
+            }
+
+
+            .font-awesome{
+                width: 100%;
+                @include flex();
+                
+                .font{
+                    width: 15%;
+         
+               
+                    
+
+                    .fonts{
+                        color: var(--white);
+                        background-color: var(--light-green);
+                        font-size: 1.1rem;
+                        padding: 19px;
+                    }
+
+                    .map{
+                        padding: 21.5px;
+                    }
+
+                }
+
+                .address{
+                  width: 80%;
+              
+
+                  h1{
+                      color: var(--light-green);
+                  }
+                }
+            }
+
+
+            
+
+
+        }
+
+        .map{
+           
+            
+
+            p{
+                position: relative;
+                z-index: 0;
+               
+                
+            }
+        }
+
+        .form{
+            .form-section{
+              
+          
+    
+                h1{
+                    color: var(--black);
+                    font-size: 2.2rem
+                }
+    
+                form{
+                    @include flex();
+    
+                    .w-50{
+                        width: 48.5%;
+                   
+    
+                        .name_email{
+                            width: 100%;
+                            background: transparent;
+                            color: var(--grey);
+                            border: 1px solid var(--bold-grey);
+                            padding: 18px 10px;
+                            outline: none;
+                       
+    
+                            &::placeholder{
+                                color: var(--grey);
+                                font-size: 1rem;
+                                text-transform: capitalize;
+                                padding: 20px 0px;
+                                
+                            }
+    
+                            &:focus{
+                                outline: 3px solid var(--light-green);
+                                opacity: 0.5;
+                            }
+                        }
+                    }
+    
+                  
+    
+                    .subject{
+                        width: 100%;
+                     
+    
+                        .subjects{
+                            width: 100%;
+                            background: transparent;
+                            color: var(--white);
+                            border: 1px solid var(--bold-grey);
+                            padding: 18px 10px;
+                            outline: none;
+                            margin: 18px 0;
+                            color: var(--grey);
+                            font-size: 1rem;
+    
+                            &:focus{
+                                outline: 3px solid var(--light-green);
+                                opacity: 0.5;
+                            }
+    
+                        }
+                     
+    
+    
+                    }
+    
+                    .text-areas{
+                        width: 100%;
+                   
+    
+                        textarea{
+                            width: 100%;
+                            background: transparent;
+                            color: var(--grey);
+                            border: 1px solid var(--bold-grey);
+                            outline: none;
+                            font-size: 1rem;
+                            text-transform: capitalize;
+                            padding: 20px 10px;                        
+                            margin-bottom: 15px;
+    
+                            &::placeholder{
+                                color: var(--grey);
+                               
+                            }
+    
+                            &:focus{
+                                outline: 3px solid var(--light-green);
+                                opacity: 0.5;
+                            }
+                        }
+                    }
+    
+                    .w-100{
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                       
+    
+                        .btns{
+                            width: 100%;
+                            padding: 15px 0;
+                            font-size: 1rem;
+                            text-transform: capitalize;
+                            font-family: "Nunito", sans-serif;
+                            font-weight: 400;
+                            background: transparent;
+                            color: var(--white);
+                            background-color: var(--light-green);
+                            border: 1px solid var(--bold-grey);
+                            transition: 1s;
+                         
+    
+                            &:hover{
+                              
+                                cursor: pointer;
+                                opacity: 0.8;
+                            }
+    
+                            &:focus{
+                                outline: 3px solid var(--light-green);
+                            
+                            }
+    
+                          
+                        }
+    
+                      
+                    }
+    
+    
+                }
+    
+            }
+        }
+    }
+    
+}
